@@ -36,6 +36,8 @@ public class ArrayListDemo {
 		numbers.add(1);
 		numbers.add(1040);
 		numbers.add(-2327);
+		numbers.set(4, 39)
+		numbers.get(numbers.size());
 		
 		//iterating through list with standard for-loop
 		for(int i = 0; i < numbers.size(); i++){
